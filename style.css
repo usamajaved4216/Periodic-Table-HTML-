@@ -1,0 +1,139 @@
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b9b3b3;
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin: 10px;
+    font-weight: bold;
+} */
+
+
+
+/* 
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+.alkali-metal {
+    background-color: #FFB6C1;
+}
+.alkaline-earth-metal {
+    background-color: #FFD700;
+}
+.transition-metal {
+    background-color: #ADFF2F;
+}
+.post-transition-metal {
+    background-color: #00CED1;
+}
+.metalloid {
+    background-color: #FF7F50;
+}
+.nonmetal {
+    background-color: #9ACD32;
+}
+.halogen {
+    background-color: #FF6347;
+}
+.noble-gas {
+    background-color: #1E90FF;
+}
+.lanthanoid {
+    background-color: #EEE8AA;
+}
+.actinoid {
+    background-color: #DDA0DD;
+} */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+    transition: background-color 0.3s;
+}
+th {
+    background-color: #f2f2f2;
+}
+.alkali-metal {
+    background-color: #FFB6C1;
+}
+.alkaline-earth-metal {
+    background-color: #FFD700;
+}
+.transition-metal {
+    background-color: #ADFF2F;
+}
+.post-transition-metal {
+    background-color: #00CED1;
+}
+.metalloid {
+    background-color: #FF7F50;
+}
+.nonmetal {
+    background-color: #9ACD32;
+}
+.halogen {
+    background-color: #FF6347;
+}
+.noble-gas {
+    background-color: #1E90FF;
+}
+.lanthanoid {
+    background-color: #EEE8AA;
+}
+.actinoid {
+    background-color: #DDA0DD;
+}
+td:hover, th:hover {
+    background-color: #B0C4DE;
+    cursor: pointer;
+}
